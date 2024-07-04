@@ -1,0 +1,59 @@
+body{
+     font-family: "Roboto", sans-serif;
+     background-color: navy;
+     color: white;
+     margin: 0;
+     padding: 20px;
+     position: relative;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 10px;
+}
+    /* Using flex to make my navbar inline */
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.navbar ul :hover{
+    color:orangered
+}
+
+.navbar ul:active{
+    color:blue;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+    
+main{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    background-color: black;
+}
+
+footer a{
+    text-decoration: none;
+    margin: 3px;
+}
+       /* Styling the footer to make it orange with larger text when i hover */
+footer a:hover{
+    color: orangered;
+     opacity: 0.8;
+     font-size: 18px
+}
